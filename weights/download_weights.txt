@@ -1,0 +1,1 @@
+Download the weights of RAGT-3-3 in the hyperlink in the README file.
