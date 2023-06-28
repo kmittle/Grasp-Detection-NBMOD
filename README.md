@@ -11,9 +11,9 @@ You can find a paper for explaining the NBMOD and our models on [arXiv](https://
 
 If you use this library or find the documentation useful for your research, please consider citing:
 
-  @article{cao2023nbmod,
-    title={NBMOD: Find It and Grasp It in Noisy Background},
-    author={Cao, Boyuan and Zhou, Xinyu and Guo, Congmin and Zhang, Baohua and Liu, Yuchen and Tan, Qianqiu},
-    journal={arXiv preprint arXiv:2306.10265},
-    year={2023}
-  }
+    @article{cao2023nbmod,
+  title={NBMOD: Find It and Grasp It in Noisy Background},
+  author={Cao, Boyuan and Zhou, Xinyu and Guo, Congmin and Zhang, Baohua and Liu, Yuchen and Tan, Qianqiu},
+  journal={arXiv preprint arXiv:2306.10265},
+  year={2023}
+}
