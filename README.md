@@ -70,6 +70,8 @@ Our experimental setup is as follows:
 
 
 # Download NBMOD and Model Weights
+Currently, the open-source code available is for the RAGT-3/3 model. You can modify the variable 'anchor' in the 'Anchor.py' file to change the number of anchors in each grid cell. The code for the RAST and RAGT models will be uploaded soon.
+
 The NBMOD is available at [NBMOD](https://pan.baidu.com/s/1kHtTKYkqFciJpfiMkEENaQ), with the password for extraction being 6666.
 
 The weights of models are available at [Weights](https://pan.baidu.com/s/18tAB5Yuu0yAJiyQvjE2vJw). The password for extraction is 6666.
