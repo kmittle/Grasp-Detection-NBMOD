@@ -2,7 +2,7 @@ This is the repository for the **NBMOD** (Noisy Background Multi-Object Dataset 
 
 
 # Introduction
-We propose a dataset called **NBOMD** (Noisy Background Multi-Object Dataset for grasp detection) consisting of **31,500 RGB-D images**, which is composed of three subsets: Simple background Single-object Subset (SSS), Noisy background Single-object Subset (NSS), and Multi-Object grasp detection Subset (MOS). Among them, the SSS subset consists of 13,500 images, the NSS subset consists of 13,000 images, and the MOS subset consists of 5,000 images.
+We propose a dataset called **NBMOD** (Noisy Background Multi-Object Dataset for grasp detection) consisting of **31,500 RGB-D images**, which is composed of three subsets: Simple background Single-object Subset (SSS), Noisy background Single-object Subset (NSS), and Multi-Object grasp detection Subset (MOS). Among them, the SSS subset consists of 13,500 images, the NSS subset consists of 13,000 images, and the MOS subset consists of 5,000 images.
 
 Unlike the renowned Cornell dataset, the NBMOD dataset differs in that its backgrounds are no longer simple whiteboards. The NSS and MOS subsets comprise a substantial number of images with noise, where this noise corresponds to interfering objects unrelated to the target objects for grasping detection.
 
