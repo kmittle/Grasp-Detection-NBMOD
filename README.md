@@ -77,6 +77,38 @@ The NBMOD is available at [NBMOD](https://pan.baidu.com/s/1kHtTKYkqFciJpfiMkEENa
 The weights of models are available at [Weights](https://pan.baidu.com/s/18tAB5Yuu0yAJiyQvjE2vJw). The password for extraction is 6666.
 
 
+# Training & Testing
+The images in NBMOD have a resolution of 640x480, and the label files are in XML format.
+
+If you want to utilize our code, you can refer to our training and testing process as follows:
+
+1) The 640x480 images are padded with zeros to a size of 640x640 and then resized to 416x416. You can use the `resize_to_416.py` file in the `\data_preprocess\` directory to complete this step.
+
+2) Use the `original_img.py` file in the `\data_preprocess\data_augmentation\label\` directory to parse the coordinates of oriented bounding boxes from XML files into TXT files. In the TXT file, the coordinates are in the format of nx5, where "n" represents the number of annotation bounding boxes contained in the image, and "5" denotes the five coordinate parameters of the five-dimensional grasp representation.
+
+    For example:
+
+        x1 y1 w1 h1 theta1
+        x2 y2 w2 h2 theta2
+        x3 y3 w3 h3 theta3
+        ......
+        xn yn wn hn thetan
+
+   During the experiment, to accelerate the training process, we employed a strategy of performing data augmentation before training rather than augmenting the data during the training process. Under the `\data_preprocess\data_augmentation` directory, there are additional code files for data augmentation, which perform transformations on both images and coordinates. If you need to perform data augmentation, you can refer to these Python programs.
+
+   The purpose of the `rearrangement.py` file in the `\data_preprocess\` directory is to renumber the augmented data after the augmentation process.
+
+3) To start the training process, you can modify the paths of the dataset's images and labels in the `train_grasp.py` file. Additionally, you can set your desired batch size, loss function weights, and the number of training epochs. Once these modifications are done, you can run the `train_grasp.py` file to begin the training.
+
+    In the experiment, we employed the AdamW optimizer with its default training parameters. You can modify the `train_grasp.py` file to implement a more fine-grained training strategy according to your requirements.
+
+4) The `evaluate_acc.py` file is used to test the accuracy of the model. After modifying the paths of the test dataset's images and labels, as well as the model's weight path, you can run the file to evaluate the accuracy of the model.
+
+    Please ensure that the test dataset's image and label data formats remain consistent with those of the training dataset.
+
+   The `draw_single_box.py` script is used to visualize the detection results by drawing only the bounding box with the highest confidence. On the other hand, `grasp_detect_multibox.py` can be used to visualize all prediction boxes with confidence scores greater than a specified threshold.
+
+
 # Citation
 You can find a paper for explaining the NBMOD and our models on [arXiv](https://arxiv.org/abs/2306.10265).
 
