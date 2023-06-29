@@ -9,7 +9,7 @@ Unlike the renowned Cornell dataset, the NBMOD dataset differs in that its backg
 To enhance the task of grasp detection, we propose a novel mechanism called **RAM** (Rotation Anchor Mechanism) and design three detection network architectures: **RARA** (network with Rotation Anchor and Region Attention), **RAST** (network with Rotation Anchor and Semi Transformer), and **RAGT** (network with Rotation Anchor and Global Transformer). These architectures aim to improve the accuracy and robustness of grasp detection by incorporating rotation anchor-based methods and attention mechanisms.
 
 Some samples of NBMOD are shown in the following figure:
-![image](https://github.com/kmittle/Grasp-Detection-NBMOD/blob/picture/dataset.pdf) 
+![image](picture/dataset.pdf) 
 
 # Download NBMOD and model weights
 The NBMOD is available at [NBMOD](https://pan.baidu.com/s/1kHtTKYkqFciJpfiMkEENaQ), with the password for extraction being 6666.
