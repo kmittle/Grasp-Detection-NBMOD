@@ -43,6 +43,32 @@ Detection results on MOS:
 ![image](picture/detected-multi-obj.png) 
 
 
+# Requirements
+Our experimental setup is as follows:
+
+    python                    3.9.7
+    torch.version.cuda        11.3
+    torch                     1.12.1+cu113
+    torchaudio                0.12.1+cpu
+    torchdata                 0.6.0             
+    torchinfo                 1.7.2             
+    torchstat                 0.0.7                 
+    torchsummary              1.5.1                  
+    torchvision               0.13.1+cu113         
+    torchviz                  0.0.2                  
+    tornado                   6.2             
+    tqdm                      4.65.0         
+    thop                      0.1.1-2209072238       
+    tensorboard               2.9.1                 
+    tensorboard-data-server   0.6.1                 
+    tensorboard-plugin-wit    1.8.1              
+    tensorboardx              2.5.1                
+    opencv-contrib-python     4.7.0.72          
+    opencv-python             4.7.0.72   
+
+    CUDA Version              11.2
+
+
 # Download NBMOD and Model Weights
 The NBMOD is available at [NBMOD](https://pan.baidu.com/s/1kHtTKYkqFciJpfiMkEENaQ), with the password for extraction being 6666.
 
