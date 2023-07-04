@@ -1,4 +1,4 @@
-This is the repository for the **NBMOD** (Noisy Background Multi-Object Dataset for grasp detection) and the code of the paper ***NBMOD: Find It and Grasp It in Noisy Background***.
+This is the repository for the **NBMOD** (Noisy Background Multi-Object Dataset for grasp detection) and the code of the paper [***NBMOD: Find It and Grasp It in Noisy Background***](https://arxiv.org/abs/2306.10265).
 
 
 # Introduction
