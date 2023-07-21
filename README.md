@@ -76,6 +76,8 @@ The NBMOD is available at [NBMOD](https://pan.baidu.com/s/1kHtTKYkqFciJpfiMkEENa
 
 The weights of models are available at [Weights](https://pan.baidu.com/s/18tAB5Yuu0yAJiyQvjE2vJw). The password for extraction is 6666.
 
+If you are unable to download the NBMOD dataset and model weights from the above link, you can try the following links: [NBMOD](https://drive.google.com/drive/folders/1zresLaQZc3DEP2m_Eo0w_kxT_6cHx9vN?usp=sharing) and [Weights](https://drive.google.com/drive/folders/1zresLaQZc3DEP2m_E).
+
 
 # Training & Testing
 The images in NBMOD have a resolution of 640x480, and the label files are in XML format.
